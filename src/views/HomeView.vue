@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar">
+    <nav class="navbar" style="background: url('image1.jpeg');">
         <div class="container">
             <div class="navbar-left">
                 <a href="#" class="logo">MAN OF GOD</a>
@@ -126,6 +126,8 @@
                 <a href="https://twitter.com/votrepage">Twitter</a>
                 <!-- Ajoutez d'autres liens sociaux si nécessaire -->
             </div>
+            <router-link to="/admin">With</router-link>
+            <router-link to="/post">Love</router-link>
             <p style="font-size: 30px;">&copy; MAN_OF_GOD</p>
         </div>
     </footer>
@@ -180,7 +182,6 @@ export default {
 
   /* Styles de la barre de navigation */
 .navbar {
-    background-image: url('image1.jpeg'); /* Ajoutez le chemin vers votre image de fond */
     background-size: cover;
     padding: 20px 0;
     height: 500px;
